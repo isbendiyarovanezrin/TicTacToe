@@ -34,14 +34,14 @@ button {
 }
 
 .reset-btn {
-  color: #eee;
+  color: #fff;
   user-select: none;
   cursor: pointer;
   margin-top: 4rem;
   padding: 0.7rem 1.7rem;
-  background-color: #38b3c9;
+  background-color: #2696aa;
   font: 2.1rem "Architects Daughter", cursive;
-  border: 0.1rem solid #48bed3b9;
+  border: 0.1rem solid #188ca179;
   border-radius: 0.1rem;
 }
 
@@ -52,7 +52,7 @@ button {
 
 .reset-btn:hover {
   transition: background-color 0.5s ease;
-  background-color: #0a98b1;
+  background-color: #007e94;
 }
 
 .board {
