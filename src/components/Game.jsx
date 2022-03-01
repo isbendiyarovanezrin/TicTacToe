@@ -33,7 +33,7 @@ const Game = () => {
     }
 
     if (squares.includes(null) === false) {
-      return "Bərabərə!";
+      return "Draw!";
     }
 
     return null;
@@ -53,7 +53,7 @@ const Game = () => {
         className="reset-btn"
         onClick={() => setBoard(Array(16).fill(null))}
       >
-        Yenidən başlat
+        Start Game
       </button>
     );
   };
@@ -65,8 +65,8 @@ const Game = () => {
       <div className="winner">
         <p>
           {winner
-            ? "Qalib: " + winner
-            : "Növbəti oyunçu: " + (xIsNext ? "X" : "O")}
+            ? "Winner: " + winner
+            : "Next Player: " + (xIsNext ? "X" : "O")}
         </p>
 
         {resetGame()}
