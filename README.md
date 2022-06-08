@@ -8,6 +8,8 @@
 
 ![Tic tac toe game screenshot](https://i.postimg.cc/NfC873xM/game.png)
 
+#### _I was inspired by [this](https://www.freecodecamp.org/news/learn-how-to-build-tic-tac-toe-with-react-hooks) project._
+
 ## _License 📝_
 
 ##### _Copyright © 2022 [Nəzrin İsbəndiyarova](https://github.com/isbendiyarovanezrin "Click me!😎")._
